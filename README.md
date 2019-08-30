@@ -40,3 +40,5 @@ I use in my work images 32x32 pixels and just 10 classes (the most frequent 10 c
   <li>At the end the results displayed using the confiusion matrix</>
   </ol>
 </div>
+  <h2>Flow Chart</h2>
+  <img src="https://user-images.githubusercontent.com/44674760/64015431-d7207300-cb24-11e9-852a-83af927d0381.PNG" width=35% height=35%>
