@@ -129,7 +129,7 @@ plt.plot(errorL3,label="third Layer",linestyle='dotted')
 #plt.xlabel('GTSRB Dataset with colored images', fontsize = 15)
 
 plt.xlabel('GTSRB Dataset with grayscale images', fontsize = 15)
-plt.ylabel('square errors',fontsize = 15)
+plt.ylabel('mean square errors',fontsize = 15)
 plt.legend()
 plt.show()
 

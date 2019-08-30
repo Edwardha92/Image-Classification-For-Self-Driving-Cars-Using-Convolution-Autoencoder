@@ -128,7 +128,7 @@ plt.plot(errorL2,label="second Layer",linestyle='dashed')
 plt.plot(errorL3,label="third Layer",linestyle='dotted')
 
 plt.xlabel('GTSRB Dataset', fontsize = 15)
-plt.ylabel('square errors',fontsize = 15)
+plt.ylabel('mean square errors',fontsize = 15)
 plt.legend()
 plt.show()
 
