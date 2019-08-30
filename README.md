@@ -42,6 +42,8 @@ I use in my work images 32x32 pixels and just 10 classes (the most frequent 10 c
 </div>
   <h2>Flow Chart</h2>
   <img src="https://user-images.githubusercontent.com/44674760/64015431-d7207300-cb24-11e9-852a-83af927d0381.PNG" width=35% height=35%>
+<h2>Die Architecture of the Modell</h2>
+  <img src="https://user-images.githubusercontent.com/44674760/64016764-2025f680-cb28-11e9-9320-2aaa5f9052a0.PNG">
 <h2>Result of colored images dataset</h2>
   <h3> First layer of convolutional Autoencoder</h3>
   <img src="https://user-images.githubusercontent.com/44674760/64015949-f8359380-cb25-11e9-9d8c-4c350dd1500b.jpg">
