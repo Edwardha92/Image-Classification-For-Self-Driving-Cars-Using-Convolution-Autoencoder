@@ -42,3 +42,33 @@ I use in my work images 32x32 pixels and just 10 classes (the most frequent 10 c
 </div>
   <h2>Flow Chart</h2>
   <img src="https://user-images.githubusercontent.com/44674760/64015431-d7207300-cb24-11e9-852a-83af927d0381.PNG" width=35% height=35%>
+<h2>Result of colored images dataset</h2>
+  <h3> First layer of convolutional Autoencoder</h3>
+  <img src="https://user-images.githubusercontent.com/44674760/64015949-f8359380-cb25-11e9-9d8c-4c350dd1500b.jpg">
+  <h3> Second layer of convolutional Autoencoder</h3>
+  <img src="https://user-images.githubusercontent.com/44674760/64016030-33d05d80-cb26-11e9-81e8-a30248e80404.jpg">
+  <h3> Third layer of convolutional Autoencoder</h3>
+  <img src="https://user-images.githubusercontent.com/44674760/64016046-3cc12f00-cb26-11e9-9c57-1d3bf9d14079.jpg">
+  
+  <h3>OVA_SVM</h3>
+  The best accuracy is 79.79% using 1K Batch size 
+  <img src="https://user-images.githubusercontent.com/44674760/64016374-223b8580-cb27-11e9-867f-321f4e7ada5c.jpg" width=70% height=70%>
+  <h3>SVC</h3>
+  The best accuracy is 94.56% using 10K Batch size 
+  <img src="https://user-images.githubusercontent.com/44674760/64016388-2b2c5700-cb27-11e9-8c13-e1782819fd70.jpg" width=70% height=70%>
+  
+  
+  <h2>Result of grayscale images dataset</h2>
+  <h3> First layer of convolutional Autoencoder</h3>
+  <img src="https://user-images.githubusercontent.com/44674760/64016129-77c36280-cb26-11e9-9d51-e4ee26763827.jpg">
+  <h3> Second layer of convolutional Autoencoder</h3>
+  <img src="https://user-images.githubusercontent.com/44674760/64016151-8578e800-cb26-11e9-929e-44ee3fbd942e.jpg">
+  <h3> Third layer of convolutional Autoencoder</h3>
+  <img src="https://user-images.githubusercontent.com/44674760/64016176-932e6d80-cb26-11e9-8fd9-a45cef4cf781.jpg">
+  
+  <h3>OVA_SVM</h3>
+  The best accuracy is 65.71% using 1K Batch size 
+  <img src="https://user-images.githubusercontent.com/44674760/64016463-64fd5d80-cb27-11e9-9b63-6e85fed9a16d.jpg" width=70% height=70%>
+  <h3>SVC</h3>
+  The best accuracy is 92.13% using 10K Batch size 
+  <img src="https://user-images.githubusercontent.com/44674760/64016497-734b7980-cb27-11e9-8e2c-ae41ae6fd4eb.jpg" width=70% height=70%>
