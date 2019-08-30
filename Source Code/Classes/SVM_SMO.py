@@ -184,22 +184,3 @@ class SVM(object):
                 result += z_i * self.kernel(x_i, x)
             prediction[i] = result
         return prediction
-    
-    def predict_value1(self, X):
-        """
-        vorhersagt die Klasse-ID der eingegebenen Daten
-        Parameter
-        ---------
-        X: 2D-Array [n_samples, n_feature], die Testdaten
-        Return
-        ------
-        prediction: 1D-Array [n_samples], die vorhersagenen Klassen-ID bzw. Labels
-        """
-        prediction = np.zeros(1,X.shape[0])
-        for i, x in enumerate(X):
-            result = self.threshold
-            for z_i, x_i in zip(self.dual_coef,
-                                     self.support_vectors):
-                result += z_i * self.kernel(x_i, x)
-            prediction[i] = result
-        return prediction

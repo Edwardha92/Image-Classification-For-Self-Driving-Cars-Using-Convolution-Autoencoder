@@ -72,20 +72,3 @@ class OVA_SVM():
             predicted_scores[:,i] = self.estimators[i].predict_value(X)
             
         return np.argmax(predicted_scores, axis=1)
-    
-    def predict1(self, X):
-        """
-		vorhersagt die Klassen der eingegebenen Daten
-		Parameters
-        ----------
-        X : 2D-Array [n_samples, n_features], die Testdaten
-		Return:
-		----------
-		die Indizes der Klasse, die maximale Score hat.
-		"""
-        predicted_scores = np.zeros((1,len(self.classes)))
-        for i, label in enumerate(self.classes):
-            print(i)
-            predicted_scores[:,i] = self.estimators[i].predict_value1(X)
-            
-        return np.argmax(predicted_scores, axis=1)
