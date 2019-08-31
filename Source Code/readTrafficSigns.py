@@ -34,9 +34,9 @@ train = {}
 val = {}
 test = {}
 
-images, labels = readTrafficSigns("C:/Users/Edward/Desktop/most 10 classes/Trainingsdaten")
+images, labels = readTrafficSigns("C:/Trainingsdaten")
 train["features"], val["features"], train["labels"], val["labels"] = train_test_split(images, labels, test_size=0.1, random_state=10)
-test["features"], test["labels"]  = readTrafficSigns("C:/Users/Edward/Desktop/most 10 classes/Testdaten")
+test["features"], test["labels"]  = readTrafficSigns("C:/Testdaten")
 
 #convert list to array
 x_train = np.array(train["features"])
